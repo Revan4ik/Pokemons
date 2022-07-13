@@ -26,14 +26,14 @@ p {
 }
 
 .paginationPokemons {
-    width: 100%;
-    height: 50px;
+    height: auto;
     display: flex;
 }
 
 .current-pokemon {
-    width: 100%;
-    height: 450px;
+    width: 12%;
+    height: 350px;
+    border: 2px solid black;
 }
 
 .pag-button {
@@ -49,6 +49,8 @@ p {
 .item {
     position: absolute;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 

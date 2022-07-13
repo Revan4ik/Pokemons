@@ -125,6 +125,7 @@ function createitem(elem, indx) {
                 item.appendChild(favourite)
                 img.src = json.sprites.front_default
                 p.innerHTML = ` ${elem.name}`
+                p.style.textAlign ='center'
                 item.className = `item`
                 button.className = "evolution"
                 favourite.innerHTML = "Add to favourites"
