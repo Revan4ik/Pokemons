@@ -1,0 +1,57 @@
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    margin: 10px;
+}
+.titleSelect{
+    text-align: center;
+    color: white;
+}
+p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.name-list {
+    width: auto;
+    height: 100px;
+    background-color: rgb(92, 85, 85);
+}
+
+.paginationPokemons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.current-pokemon {
+    width: 100%;
+    height: 450px;
+}
+
+.pag-button {
+    width: 80px;
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.favourite {
+    background-color: rgb(71, 221, 96);
+}
